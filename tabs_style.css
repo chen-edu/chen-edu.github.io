@@ -41,12 +41,12 @@ h1 p
 #main_content li.notselected
 {
  /* background-color:#688A08; */
- color:#292A0A;	
+ color:#292A0A;
 }
 #main_content li.selected
 {
  background-color:#D0F5A9;
- /* color:#292A0A;	 */
+ color:#292A0A;
 }
 #main_content .hidden_desc
 {
