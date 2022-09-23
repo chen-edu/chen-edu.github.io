@@ -26,6 +26,7 @@ h1 p
  margin-top:50px;
  width:1000px;
  margin-left:130px;
+ text-indent: 2em;
 }
 #main_content li
 {
@@ -62,4 +63,15 @@ h1 p
  color:#2E2E2E;
  line-height: 1.6em;
  word-spacing:4px;
+}
+
+p.date {
+    text-align: right;
+  }
+p.contact{
+    text-align: right;
+}
+p.title{
+    text-align: center;
+    font-size:35px;
 }
