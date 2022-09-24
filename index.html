@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html >
 <link rel="stylesheet" type="text/css" href="tabs_style.css">
-<meta name="viewport" content="width=device-width, initial-scale=0.35" />
+<meta name="viewport" content="width=device-width, initial-scale=.35" />
 <head>
     <script>
     function change_tab(id)
@@ -23,15 +23,16 @@
     <div class="main">
 
 
-        <img src="resource/wallhaven-6oxgp6_2560x1080.png" alt="sunflower" style="width:1200px;height:400px">
+        <img src="resource/wallhaven-6oxgp6_2560x1080.png" alt="sunflower" style="width:1000px;height:400px">
+
 
         <div id="main_content">
-
-            <li class="selected" id="page1" onclick="change_tab(this.id);">导语</li>
-            <li class="notselected" id="page2" onclick="change_tab(this.id);">课程设计</li>
-            <li class="notselected" id="page3" onclick="change_tab(this.id);">关于我们</li>
-            <li class="notselected" id="page4" onclick="change_tab(this.id);">公益活动</li>
-
+            <div class="menu">
+                <li class="selected" id="page1" onclick="change_tab(this.id);">导语</li>
+                <li class="notselected" id="page2" onclick="change_tab(this.id);">课程设计</li>
+                <li class="notselected" id="page3" onclick="change_tab(this.id);">关于我们</li>
+                <li class="notselected" id="page4" onclick="change_tab(this.id);">公益活动</li>
+            </div>
             <div class='hidden_desc' id="page1_desc">
                 <p class="heading1"> <strong>An Exceptional Chinese Learning Program</strong>  </p>
                 <p class="heading1"> <strong>创新中文课——跨文化领导力培养 </strong></p>
