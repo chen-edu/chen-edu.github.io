@@ -75,3 +75,9 @@ p.title{
     text-align: center;
     font-size: 1.5em;
 }
+
+p.heading1{
+    text-align: left;
+    font-size: 1em;
+    text-indent: 0%;
+}
